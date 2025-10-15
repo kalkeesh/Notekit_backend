@@ -5,11 +5,21 @@ from motor.motor_asyncio import AsyncIOMotorClient
 import os
 from dotenv import load_dotenv
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
+
 load_dotenv()
 
 app = FastAPI(title="NoteKit API")
 
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or your frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 MONGO_URI = os.getenv("MONGO_URI")
 client = AsyncIOMotorClient(MONGO_URI)
 db = client["NOTEkiT"] 
