@@ -1,0 +1,71 @@
+[33mcommit 1ddbd292f895f46a5f833623620f630e759f5e40[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Mon Nov 3 20:35:26 2025 +0530
+
+    auth_google router added
+
+[33mcommit b37f3efed5be320a6f52ac0b54f4001ce1eaa6e1[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Mon Nov 3 20:34:13 2025 +0530
+
+    Added .env to .gitignore
+
+[33mcommit f8a50e746da6a02bbef4ddb01c93ecb756e093d0[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Mon Nov 3 20:33:46 2025 +0530
+
+    Removed .env file from tracking for security
+
+[33mcommit 40a8122271774150a2b182034bb3dbebd560dbc2[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Mon Nov 3 20:31:47 2025 +0530
+
+    auth_google router added
+
+[33mcommit 68f51f7326dda06efe91c763eeb1cf0306a3fc8a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Wed Oct 29 13:37:59 2025 +0530
+
+    google client d only added
+
+[33mcommit 5cb5f9f2004a0f48f8f790d65415d89f79d24e21[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Wed Oct 22 20:43:08 2025 +0530
+
+    authent and routers
+
+[33mcommit 29723ed6198c5d04598576906b13d868aac1221a[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Sun Oct 19 20:41:45 2025 +0530
+
+    updated atlas db
+
+[33mcommit 8e5c084e34008eca81d535fc048061f25e0e8377[m
+Author: krish1899 <krishnavamsi1899@gmail.com>
+Date:   Wed Oct 15 14:10:02 2025 +0530
+
+    corrs
+
+[33mcommit 3bed483942df105890beede5d00604462852a2c7[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Tue Oct 14 17:02:30 2025 +0530
+
+    all done
+
+[33mcommit 3b0e441175a0933980c513c5cd29cc2ad958e4d2[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Tue Oct 14 16:58:15 2025 +0530
+
+    vercel removed
+
+[33mcommit 12b0a6bae32e841fb7b73d2026cf4ee416d2e236[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Tue Oct 14 16:54:02 2025 +0530
+
+    vercel
+
+[33mcommit 9d9ba0475c7a22926b2978addde2f4a5645b4a45[m
+Author: kalkeesh jami <kalkeeshjami@gmal.com>
+Date:   Tue Oct 14 16:49:56 2025 +0530
+
+    all
