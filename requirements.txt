@@ -5,3 +5,9 @@ pydantic
 python-dotenv
 pymongo
 email-validator
+
+
+httpx
+PyJWT
+passlib[bcrypt]
+dnspython
