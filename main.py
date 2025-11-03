@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from authent import router as auth_router
 from notes import router as notes_router
+from auth_google import router as google_router
 
 app = FastAPI(title="NoteKit API ", description="Combined Auth & Notes API", version="1.0.0")
 
@@ -16,6 +17,7 @@ app.add_middleware(
 # ✅ Include routers
 app.include_router(auth_router)
 app.include_router(notes_router)
+app.include_router(google_router)
 
 @app.get("/")
 async def root():
