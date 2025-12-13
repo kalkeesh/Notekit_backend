@@ -1,5 +1,7 @@
 from pydantic import BaseModel, Field, EmailStr
-from typing import Optional, List
+from typing import Optional, List, Dict
+from datetime import datetime
+
 class Note(BaseModel):
     id: Optional[str] = Field(default=None)
     title: str
@@ -65,3 +67,31 @@ class TodoBlock(BaseModel):
     id: str = Field(..., alias="id")   # Mongo _id string
     title: str
     items: List[TodoItem]
+
+# ================= TIMETABLE MODELS =================
+
+# ================= TIMETABLE MODELS =================
+from typing import Dict, List, Optional
+from pydantic import BaseModel
+
+class SlotIn(BaseModel):
+    slot_id: Optional[str] = None
+    title: str
+    start: str
+    end: str
+    category: Optional[str] = "General"
+
+class WeeklyTemplateIn(BaseModel):
+    mode: str  # "constant" or "weekday"
+    constant: List[SlotIn]
+    monday: List[SlotIn]
+    tuesday: List[SlotIn]
+    wednesday: List[SlotIn]
+    thursday: List[SlotIn]
+    friday: List[SlotIn]
+    saturday: List[SlotIn]
+    sunday: List[SlotIn]
+
+class MarkCompleteIn(BaseModel):
+    task_id: str
+    date: str  # YYYY-MM-DD

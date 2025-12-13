@@ -4,6 +4,7 @@ from authent import router as auth_router
 from notes import router as notes_router
 from auth_google import router as google_router
 from todos import router as todos_router
+from timetable import router as timetable_router
 
 app = FastAPI(title="NoteKit API ", description="Combined Auth & Notes API", version="1.0.0")
 
@@ -20,6 +21,7 @@ app.include_router(auth_router)
 app.include_router(notes_router)
 app.include_router(google_router)
 app.include_router(todos_router)
+app.include_router(timetable_router)
 
 @app.get("/")
 async def root():
